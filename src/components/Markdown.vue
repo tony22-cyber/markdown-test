@@ -1,8 +1,8 @@
 <template>
-     <MarkdownRender
-                :custom-id="customId"
-                :content="content"
-                :custom-html-tags="CustomHtmlTags"
+    <MarkdownRender
+    :custom-id="customId"
+    :content="content"
+    :custom-html-tags="CustomHtmlTags"
             />
 </template>
 <script setup>
@@ -16,19 +16,18 @@
 
     const customId = `mdContainer`;
 
-    const CustomHtmlTags = ["TaskPlan", "AnalysisSteps"];
+    const CustomHtmlTags = ["TaskPlan","AnalysisSteps"];
 
     const content =  `
-    <hide>uid:b238ea9cb1a44ae489247aed335a0248</hide>
+<hide>uid:b238ea9cb1a44ae489247aed335a0248</hide>
 
-    <TaskPlan>
+<TaskPlan>
     已收到您关于xxx的组织机构画像的任务请求，我将按照以下步骤执行该任务：                            
     - 匹配并确认目标组织机构
     - 构建组织机构画像管理数据
-    </TaskPlan>
+</TaskPlan>
 
-
-    <AnalysisSteps>
+<AnalysisSteps>
     # 匹配信息和确认组织机构
     ## 深度思考
     - 
@@ -36,11 +35,11 @@
     ## 多维度匹配组织机构管理数据
     - 调用数据接口，机构画像关联数据匹配中......
     - 该机构没有关联数据匹配。
-    </AnalysisSteps>
-    &#10006; 该机构没有关联机构数据匹配，无法进行机构画像生成。
+</AnalysisSteps>
+&#10006; 该机构没有关联机构数据匹配，无法进行机构画像生成。
     `
     setCustomComponents(customId, {
-        TaskPlan: AnalysisPlan,
-        AnalysisSteps
+        taskplan: AnalysisPlan,
+        analysissteps: AnalysisSteps
     });
 </script>

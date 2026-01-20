@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       markstream-vue:
-        specifier: 0.0.6-beta.4
-        version: 0.0.6-beta.4(vue@3.5.27)
+        specifier: 0.0.6-beta.5
+        version: 0.0.6-beta.5(vue@3.5.27)
       vue:
         specifier: ^3.5.24
         version: 3.5.27
@@ -440,8 +440,8 @@ packages:
     resolution: {integrity: sha512-nZpRTJj4S6bN0I5wsNBtgzDKx+HYBBSsvKjGdYw7/tPdrzfo3gUTt3ZbeAjPGeZaC6a4LFi4JdhTVeLm3F6TIQ==}
     engines: {node: '>=18'}
 
-  markstream-vue@0.0.6-beta.4:
-    resolution: {integrity: sha512-/hmXbXtj3aL3samSqiove/N69JeYi1Kek+hANc4ux9/55SRgrAB1jBoSz3KjojQOdnigbzAubb+nqW0KQiX8sQ==}
+  markstream-vue@0.0.6-beta.5:
+    resolution: {integrity: sha512-a7/HIwjL82myW26F9swKRagPul8mXjqQT0yreVX3ksWmxZAuGcyQj5IZyG52gnUPpkKp7NHQBT2sxwLpnld1uw==}
     peerDependencies:
       '@antv/infographic': ^0.2.3
       katex: '>=0.16.22'
@@ -499,8 +499,8 @@ packages:
     resolution: {integrity: sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==}
     engines: {node: '>=0.10.0'}
 
-  stream-markdown-parser@0.0.58-beta.8:
-    resolution: {integrity: sha512-TC+ues0G+a9zMt7MNmvQI71OKMoaZ3qbPGeagJTx3+WDXxB1V00mFCaBLYgd8Kw8LHM6CxkFYRjQPTf0bOW7vg==}
+  stream-markdown-parser@0.0.58-beta.9:
+    resolution: {integrity: sha512-HqZ8sUhI2m1WIEAwMOOJAlJrGNAvNDmIEBuKq3YlONq/5y9l5G4QPIlx1SpYncpoI25X68dyGKFqoKGG0zqHSg==}
 
   tinyglobby@0.2.15:
     resolution: {integrity: sha512-j2Zq4NyQYG5XMST4cbs02Ak8iJUdxRM0XI5QyxXuZOzKOINmWurp3smXu3y5wDcJrptwpSjgXHzIQxR0omXljQ==}
@@ -876,10 +876,10 @@ snapshots:
       punycode.js: 2.3.1
       uc.micro: 2.1.0
 
-  markstream-vue@0.0.6-beta.4(vue@3.5.27):
+  markstream-vue@0.0.6-beta.5(vue@3.5.27):
     dependencies:
       '@floating-ui/dom': 1.7.4
-      stream-markdown-parser: 0.0.58-beta.8
+      stream-markdown-parser: 0.0.58-beta.9
       vue: 3.5.27
 
   mdurl@2.0.0: {}
@@ -931,7 +931,7 @@ snapshots:
 
   source-map-js@1.2.1: {}
 
-  stream-markdown-parser@0.0.58-beta.8:
+  stream-markdown-parser@0.0.58-beta.9:
     dependencies:
       markdown-it-container: 4.0.0
       markdown-it-footnote: 4.0.0
